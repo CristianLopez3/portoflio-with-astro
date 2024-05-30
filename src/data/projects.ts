@@ -5,6 +5,17 @@ export type Project = {
   isComingSoon?: boolean;
 };
 
+const colors: string[] = [
+  "#FF7F50",
+  "#dd6236",
+  "#8f1e00",
+  "#8B4513",
+  "#ffd299",
+  "#c4bcab",
+  "#000000",
+  "#2c2c2c"
+]
+
 const projects: Project[] = [
   {
     title: "Menu EASY",
