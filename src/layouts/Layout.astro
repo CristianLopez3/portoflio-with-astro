@@ -17,7 +17,7 @@ const headTags = Astro.props;
 <html lang="en">
   <SEOTags {...headTags} />
   <body
-    class="mx-auto flex min-h-screen max-w-[872px] flex-col gap-9 bg-neutral-950 px-10 py-8 text-sm text-neutral-400 md:gap-20 md:py-16"
+    class="jetbrains-mono mx-auto flex min-h-screen max-w-[872px] flex-col gap-9 bg-neutral-950 px-10 py-8 text-sm text-neutral-400 md:gap-20 md:py-16"
   >
     <Header />
     <slot />
@@ -25,11 +25,20 @@ const headTags = Astro.props;
 </html>
 
 <style>
+
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
   body {
     background-color: #000;
     opacity: 0.8;
-    background-image:  linear-gradient(#d4d4d4 1px, transparent 1px), linear-gradient(to right, #d4d4d4 1px, #fff 1px);
+    background-image:  linear-gradient(#e4e4e7 1px, transparent 1px), linear-gradient(to right, #e4e4e7 1px, #fff 1px);
     background-size: 20px 20px;
-      }
+  }
+
+  .jetbrains-mono {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
 
   </style>
