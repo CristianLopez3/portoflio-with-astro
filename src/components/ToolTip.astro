@@ -1,0 +1,35 @@
+---
+type Props = {
+    tooltip: string;
+}
+
+const { tooltip } = Astro.props;
+---
+
+<article class="
+    relative flex items-center py-2 my-1
+    font-medium rounded-md cursor-pointer
+    transition-all group duration-150
+">
+    <slot />
+    <span 
+        class="absolute hidden group-hover:block  w-48 ml-3 left-full bg-zinc-800 p-1 text-zinc-200 text-center rounded-md transition duration-150 fade-in"
+    > 
+        { tooltip } 
+    </span>
+</article>
+
+<style>
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .fade-in {
+        animation: fadeIn 0.3s ease-in-out;
+    }
+</style>

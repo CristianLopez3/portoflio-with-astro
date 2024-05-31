@@ -3,23 +3,23 @@
 }
 
 .post code {
-  @apply rounded-sm bg-neutral-800 px-1 py-[2px] text-orange-500;
+  @apply rounded-sm bg-zinc-800 px-1 py-[2px] text-orange-500;
 }
 
 .post h2 {
-  @apply mt-6 text-3xl text-neutral-800;
+  @apply mt-6 text-3xl text-zinc-800;
 }
 
 .post h3 {
-  @apply mt-4 text-xl text-neutral-100;
+  @apply mt-4 text-xl text-zinc-800;
 }
 
 .post code {
-  @apply rounded-sm bg-neutral-800 px-1 py-[2px] text-red-500;
+  @apply rounded-sm bg-zinc-800 px-1 py-[2px] text-red-500;
 }
 
 .post a {
-  @apply text-neutral-100 underline;
+  @apply text-zinc-700 underline;
 }
 
 .post ul {
@@ -36,4 +36,12 @@
 
 .post pre > code {
   @apply bg-transparent;
+}
+
+.post strong {
+  @apply text-zinc-500 font-bold;
+}
+
+.post p {
+  @apply text-zinc-400;
 }

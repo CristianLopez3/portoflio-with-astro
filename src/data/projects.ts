@@ -19,13 +19,18 @@ const colors: string[] = [
 const projects: Project[] = [
   {
     title: "Menu EASY",
-    techs: ["Spring Boot", "ReactJS", "AWS"],
+    techs: ["Spring Boot", "ReactJS", "AWS", "Docker"],
     link: "https://github.com/CristianLopez3/ADSO-PROJECT",
   },
   {
     title: "API Med",
     techs: ["Spring Boot", "MySQL"],
-    link: "https://github.com/CristianLopez3/",
+    link: "https://github.com/CristianLopez3/API-MED-SPRINGBOOT",
+  },
+  {
+    title: "SenaSoft - ByteBandis",
+    techs: ["Spring Boot", "MySQL"],
+    link: "https://github.com/CristianLopez3/SENASOFT-BYTE-BANDITS"
   },
   {
     title: "E-Commerce",

@@ -1,3 +1,5 @@
+import LinkedinIcon from "@/components/icons/LinkedinIcon.astro";
+
 type Social = {
   label: string;
   link: string;
@@ -19,8 +21,8 @@ const presentation: Presentation = {
     "Hello everyone, i'm a *colombian backend developer* with over *1 years* of web experience. I am currently working with *Java and Spring Boot*. Outside of work I'm building an e-commerce site and learning microservices and AWS.",
   socials: [
     {
-      label: "Linkedin",
-      link: "www.linkedin.com/in/cristian-lopez-software",
+      label:"Linkedin",
+      link: "https://www.linkedin.com/in/cristian-lopez-software",
     },
     {
       label: "Bento",
