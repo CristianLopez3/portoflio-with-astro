@@ -18,7 +18,7 @@ const presentation: Presentation = {
   title: "Hi There, I’m Cristian 👋",
   // profile: "/profile.webp",
   description:
-    "Hello everyone, i'm a *colombian backend developer* with over *1 years* of web experience. I am currently working with *Java and Spring Boot*. Outside of work I'm building an e-commerce site and learning microservices and AWS.",
+    "Hello everyone, I'm a 🇨🇴 Colombian Java developer with over 1 year of web experience. I'm currently working with Java and Spring Boot, building robust and scalable applications. Outside of work, I'm diving into microservices architecture to enhance my skills. I'm passionate about coding and always eager to learn new technologies. In my free time, I enjoy exploring new tech trends and contributing to open-source projects. 🚀💻",
   socials: [
     {
       label:"Linkedin",

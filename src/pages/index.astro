@@ -98,16 +98,14 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
       <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-zinc-900">Get in touch</h3>
       </header>
-      <p class="text-zinc-800">
-        Click here to send an email
-        
+      <p class="text-zinc-600">
+        Send me an email at
         <Link
           styles="font-bold bg-terracotta text-center text-zinc-100 pl-2  rounded-md mr-2"
           title={presentation.mail}
           href={`mailto:${presentation.mail}`}
-          label={"Here"}
+          label={presentation.mail}
         />
-
         or follow me via my social links.
       </p>
 

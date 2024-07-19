@@ -33,17 +33,18 @@ const projects: Project[] = [
     link: "https://github.com/CristianLopez3/SENASOFT-BYTE-BANDITS"
   },
   {
-    title: "E-Commerce",
-    techs: ["Spring Boot", "Astro (ReactJS), Microservices"],
-    link: "/",
-    isComingSoon: true
-  },
-  {
     title: "Portfolio",
     techs: ["Astro"],
     link: "/",
-    isComingSoon: true,
+    isComingSoon: false,
   },
+  {
+    title: "Micro services",
+    techs: ["Spring Cloud", "Unit Testing", "CI/CD"],
+    link: "/",
+    isComingSoon: true
+  },
+  
 ];
 
 export default projects;
