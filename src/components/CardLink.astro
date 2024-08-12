@@ -1,0 +1,35 @@
+---
+import Link from "./shared/Link.astro";
+---
+
+<article
+  class="flex w-full flex-col justify-between gap-2 rounded-md bg-black p-4 md:flex-row md:items-center"
+>
+  <Link
+    href="/cards"
+    styles="text-zinc-200 no-underline"
+    label="Go and see my flash cards..."
+    isUnderline
+    target="_self"
+  />
+
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    class="transition-all duration-300 group-hover:translate-x-1"
+  >
+    <path
+      d="M5.25 12.75L12.75 5.25"
+      stroke="#E4E4E7"
+      stroke-linecap="round"
+      stroke-linejoin="round"></path>
+    <path
+      d="M5.25 5.25H12.75V12.75"
+      stroke="#E4E4E7"
+      stroke-linecap="round"
+      stroke-linejoin="round"></path>
+  </svg>
+
+</article>

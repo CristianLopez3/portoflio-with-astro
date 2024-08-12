@@ -14,7 +14,7 @@ const { label, isUnderline, styles, ...props } = Astro.props;
   href={props.href}
   class:list={{
     [styles != null ? styles : ""]: styles,
-    ["hover:text-zinc-800 cursor-pointer"]: !styles,
+    ["hover:text-zinc-900 cursor-pointer text-zinc-600 transition-all duration-100"]: !styles,
     ["underline decoration-dashed underline-offset-8"]: isUnderline,
   }}
   {...props}
